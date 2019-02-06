@@ -37,6 +37,4 @@ function currentLine(katzDeliLine){
     message = `The line is currently: ${paceholders}`;
     return message;
   }
-    
-  
 }
