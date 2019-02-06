@@ -31,5 +31,6 @@ function currentLine(katzDeliLine){
     return message;
   }else{
     message = `The line is currently: 1. ${}, 2. ${}, 3. ${}`;
+    return message;
   }
 }
