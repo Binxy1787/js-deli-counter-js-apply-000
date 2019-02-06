@@ -21,6 +21,5 @@ function nowServing(katzDeliLine){
       //message = `Currently serving ${value}.`;
       katzDeliLine.shift();
     }
-    return message;
   });
 }
