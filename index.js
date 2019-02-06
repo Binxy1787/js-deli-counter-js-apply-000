@@ -24,6 +24,7 @@ function nowServing(katzDeliLine){
 }
 
 //currentLine function.
+//${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
 function currentLine(katzDeliLine){
   let message;
   if(katzDeliLine.length ===0){
@@ -33,7 +34,7 @@ function currentLine(katzDeliLine){
     let paceholders = katzDeliLine.map((value)=>{''
       let string ='' ;
     });
-    message = `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`;
+    message = `The line is currently: 1. ;
     return message;
   }
     
