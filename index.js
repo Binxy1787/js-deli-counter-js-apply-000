@@ -26,4 +26,7 @@ function nowServing(katzDeliLine){
 //currentLine function.
 function currentLine(katzDeliLine){
   let message;
+  if(katzDeliLine.length ===0){
+    message =""
+  }
 }
