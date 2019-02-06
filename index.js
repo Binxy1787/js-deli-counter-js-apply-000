@@ -15,8 +15,7 @@ function takeANumber(current, name){
 function nowServing(katzDeliLine){
   let message;
   if(katzDeliLine.lenth ===0){
-    message = 
+    message = 'There is nobody waiting to be served!';
+    return message;
   }
- 
-  
 }
