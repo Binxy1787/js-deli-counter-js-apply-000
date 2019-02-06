@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
 }
 
 //currentLine function.
-//${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
+//1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
 function currentLine(katzDeliLine){
   let message;
   if(katzDeliLine.length ===0){
