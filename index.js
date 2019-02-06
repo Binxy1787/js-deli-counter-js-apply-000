@@ -16,6 +16,7 @@ function nowServing(katzDeliLine){
   let message;
   let firstPerson = katzDeliLine.forEach(function(value){
     message = `Currently serving ${value}.`;
+    katzDeliLine.shift();
     return message;
   });
   
