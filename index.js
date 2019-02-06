@@ -15,7 +15,7 @@ function takeANumber(current, name){
 function nowServing(katzDeliLine){
   let message;
   let firstPerson = katzDeliLine.forEach(function(value){
-    message = `Currently serving ${vaule}.`;
+    message = `Currently serving ${value}.`;
     return message;
   });
   
