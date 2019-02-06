@@ -30,9 +30,9 @@ function currentLine(katzDeliLine){
     message = "The line is currently empty.";
     return message;
   }else{
-    let paceholders = katzDeliLine.map((value)=>''
+    let paceholders = katzDeliLine.map((value)=>{''
       let string ='' ;
-    );
+    });
     message = `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`;
     return message;
   }
