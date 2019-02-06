@@ -20,6 +20,6 @@ function nowServing(katzDeliLine){
       return message;
     }else{
       message = `Currently serving ${firstPerson}`;
-  }
+    }
   }
 }
