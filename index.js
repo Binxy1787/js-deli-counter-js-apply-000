@@ -16,7 +16,7 @@ function nowServing(katzDeliLine){
   let message;
   let currentPerson = katzDeliLine.forEach(function(value){ 
     if(katzDeliLine.length === 0){
-      message = "There is nobody waiting to be served!";
+     return message = "There is nobody waiting to be served!";
     }else{
       //message = `Currently serving ${value}.`;
       katzDeliLine.shift();
