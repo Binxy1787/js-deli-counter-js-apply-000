@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
     return message;
   }else{
     let paceholders = katzDeliLine.map((value)=>{
-      let string = `${katzDeliLine.indexOf(value) +1}. + ${value).join(',')`
+      let string = `${katzDeliLine.indexOf(value) + 1}. ${value}`;
     });
     message = `The line is currently: ${paceholders}`;
     return message;
