@@ -24,7 +24,8 @@ function nowServing(katzDeliLine){
 }
 
 //currentLine function.
-//could use: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]} instead of building it with the map method.
+//NOTE: we could use 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]} instead of building it with the map method.
+
 function currentLine(katzDeliLine){
   let message;
   if(katzDeliLine.length ===0){
