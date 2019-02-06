@@ -19,5 +19,5 @@ function nowServing(katzDeliLine){
     katzDeliLine.shift();
     return message;
   });
-  
+  return firstPerson;
 }
