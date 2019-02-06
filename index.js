@@ -25,5 +25,5 @@ function nowServing(katzDeliLine){
 
 //currentLine function.
 function currentLine(katzDeliLine){
-  
+  let message;
 }
