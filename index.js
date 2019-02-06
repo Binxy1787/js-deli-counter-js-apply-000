@@ -24,15 +24,15 @@ function nowServing(katzDeliLine){
 }
 
 //currentLine function.
-//1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
+//could use: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]} instead of building it with the map method.
 function currentLine(katzDeliLine){
   let message;
   if(katzDeliLine.length ===0){
     message = "The line is currently empty.";
     return message;
   }else{
-    let placeholders = katzDeliLine.map((value)=>`${katzDeliLine.indexOf(value) + 1}. ${value}`).join(',');
-    message = 'The line is currently: ' + placeholders;
+    let placeholders = katzDeliLine.map((value) => `${katzDeliLine.indexOf(value) + 1}. ${value}`).join(', ');
+    message = `The line is currently: ${placeholders}`;
     return message;
   }
 }
