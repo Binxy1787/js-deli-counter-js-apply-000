@@ -15,11 +15,14 @@ function takeANumber(current, name){
 function nowServing(katzDeliLine){
   let message;
   for(var i =0; i<katzDeliLine.length; i++){
+    let firstPerson = katzDeliLine[i];
     if(katzDeliLine.length ===0){
       message = 'There is nobody waiting to be served!';
       return message;
     }else{
       message = `Currently serving ${firstPerson}`;
+      katzDeliLine.shift();
+      return message;
     }
   }
 }
