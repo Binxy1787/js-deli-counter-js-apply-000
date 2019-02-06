@@ -13,6 +13,8 @@ function takeANumber(current, name){
 //const deliLine = ["Steven", "Blake", "Avi"];
 
 function nowServing(katzDeliLine){
-  let message;
+  let firstPerson = katzDeliLine.forEach(function(value){
+    
+  });
   
 }
