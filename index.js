@@ -16,6 +16,6 @@ function nowServing(katzDeliLine){
   let message;
   if(katzDeliLine.lenth ===0){
     message = 'There is nobody waiting to be served!';
-    return message;
   }
+  return message;
 }
